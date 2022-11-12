@@ -39,7 +39,7 @@ def setup():
     SERVER.bind((IP_ADDRESS, PORT))
     SERVER.listen(10)
     print("\n\t\t\t\t*****SERVER IS WAITING FOR INCOMING CONNECTIONS*****")
-    getDeviceSize
+    getDeviceSize()
     acceptConnections()
 
 def recvMessage(client_socket):
